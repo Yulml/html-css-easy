@@ -13,17 +13,19 @@
     font-size: 0.785rem;
 }
 
+/* Centrado horizontal Y vertical */ 
+.vhcenter { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* CSS para el ejercicio del calendario con foto */
 
 #calendar {
     width: fit-content;
     font-size: 1.1rem;
-
-    /* Centrado horizontal Y vertical */ 
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #calendar h1, h2 {
