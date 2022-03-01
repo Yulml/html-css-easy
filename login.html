@@ -4,30 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orders</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/app.js">
+    <script src="js/app.js"></script>
 </head>
+
 <body>
-    <h1>This is the main title H1</h1>
-    <h2>This is the secondary title H2</h2>
-    <form action="" method="GET">
-        User Name <input type="text" name="username" placeholder="Write your username"><br>
-        E-Mail <input type="email" name="email" placeholder="Write your email"><br>
-        Phone <input type="tel" name="telephone" placeholder="Write your telephone"><br>
-        Address <input type="text" name="address" placeholder="Write your address"><br><br>
-        First dish<br>
-        <input type="radio" name="firstdish" value="ramen" > Ramen<br>
-        <input type="radio" name="firstdish" value="sushi" > Sushi<br>
-        <input type="radio" name="firstdish" value="gyoza" > Gyoza<br>
-        <input type="radio" name="firstdish" value="okonomiyaki" > Okonomiyaki<br>
-        <input type="radio" name="firstdish" value="takoyaki" > Takoyaki<br><br>
-        Second dish<br>
-        <input type="radio" name="seconddish" value="icecream" > Ice-Cream<br>
-        <input type="radio" name="seconddish" value="mochi" > Mochi<br>
-        <input type="radio" name="seconddish" value="taiyaki" > Taiyaki<br><br>
-        <input type="submit"  value="Send" >
-    </form>
-<body>
+    <div class="login">
+        <div>
+            <h1>Sign in yo tour account</h1>
+            <form action="" method="GET">
+                <span>Email</span><br><input type="email" name="email"><br><br>
+                <span>Password</span><br><input type="password" name="pass"><br><br>
+                <input type="checkbox" name="weeklong" > Stay signed for a week<br>
+                <input type="submit"  value="Continue" >
+            </form>
+        </div>
+        <div class="links">
+            <a href="#">Use single sign-on (Google) instead</a>
+        </div>
+        <div class="links">
+            <a href="#">Forgot your password?</a>
+        </div>
+    </div>
+</body>
 
 </html>

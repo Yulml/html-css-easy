@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf) format(truetype);
+}
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.785rem;
+}
+
+/* CSS para el ejercicio del calendario con foto */
+
+#calendar {
+    width: fit-content;
+    font-size: 1.1rem;
+
+    /* Centrado horizontal Y vertical */ 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#calendar h1, h2 {
+    color: #fff;
+}
+
+#calendar table {
+    background-color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+#calendar td {
+    width: 2.75rem;
+    height: 2rem;
+}
+
+tr:first-of-type td {
+    font-weight: bold;
+}
+
+.calendar_header {
+    background-image: url("../img/ramen.jpg");
+    background-size: cover;
+    background-color: #000;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    padding:  1.25rem;
+    height: 13rem;
+}
+
+.bgnofilter {
+    background-image: url("../img/sushi.jpg");
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.notmonth {
+    color: rgba(255, 255, 255, 0);
+}
+
+.bankholiday {
+    color: #8b0000;
+}
+
+.currentday {
+    background-color:#0088dd;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* CSS para el ejercicio del formulario de login */
+
+.login {
+    width: 400px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    padding: 40px;
+}
+
+.links {
+    text-align: center;
+    padding: 12px;
+}
+
+.login h1 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.login a {
+    color: #5469d4;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login input[type=email] {
+    width: 370px;
+    border-radius: 3px;
+    padding: 12px;
+}
+
+.login input[type=password] {
+    width: 370px;
+    border-radius: 3px;
+    padding: 12px;
+}
+
+.login input[type=submit] {
+    background-color: #5469d4;
+    color: #fff;
+    font-weight: bold;
+    width: 398px;
+    border-radius: 3px;
+    border-style: none;
+    padding: 12px;
+    margin: 20px 0px 20px 0px;
+}
+
+
+/* CSS para el ejercicio del formulario de registro */
+
+.fondonegro {
+    background-color: #000;
+}
+
+.signup {
+    background-color: #15172b;
+    border-radius: 10%;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.signup h1 {
+    color: #fff;
+    margin-bottom: 0;
+    padding-left:20px;
+}
+
+.signup h2 {
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 0;
+    padding-left:20px;
+}
+
+.signup input {
+    background-color: #303245;
+    color: #f6f6f6;
+    border-style: none;
+    border-radius: 10px;
+    padding:10px;
+    margin:14px;
+    width: 83%;
+}
+
+.signup input[type=submit] {
+    background-color: #0088dd;
+    width: 90%;
+}
+
+/* CSS para el ejercicio de la tabla roja */
+
+.reddish {
+    border-style: none;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    text-align: left;
+}
+  
+.reddish th, td {
+    padding: 1%;
+}
+.reddish td {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.reddish th {
+    background-color: #ea6153;
+    color: #fff;
+    font-weight: bold;
+}
+  
+.reddish tr:nth-child(even) {
+    background-color: #f6f6f6;
+}
+  
+.reddish tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+/* CSS para el ejercicio de la tabla verde */
+
+.greenish {
+    border-style: none;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    text-align: left;
+}
+  
+.greenish th, td {
+    padding: 1%;
+}
+.greenish td {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.greenish th {
+    background-color: #31b267;
+    color: #fff;
+    font-weight: bold;
+}
+  
+.greenish tr:nth-child(even) {
+    background-color: #f6f6f6;
+}
+  
+.greenish tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+/* CSS para el ejercicio de la tabla azul */
+
+.blueish {
+    border-style: none;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    text-align: left;
+}
+  
+.blueish th, td {
+    padding: 1%;
+}
+.blueish td {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.blueish th {
+    background-color: #3285bb;
+    color: #fff;
+    font-weight: bold;
+}
+  
+.blueish tr:nth-child(even) {
+    background-color: #f6f6f6;
+}
+  
+.blueish tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+/* CSS para el ejercicio de la tabla de proveedores */
+
+.providers {
+    border-style: none;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 50%;
+}
+  
+.providers th, td {
+    text-align: center;
+    padding: 2%;
+}
+
+.providers th {
+    background-color: #000;
+    color: #fff;
+}
+  
+.providers tr:nth-child(even) {
+    background-color: #eeeeee;
+}
